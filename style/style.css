@@ -61,9 +61,9 @@ header ul{
 
 #intro figure figcaption{
   position: absolute;
-  /*background-color: purple;*/
   padding: 30px;
   font-size: 7em;
+  /*background-color: white;*/
   /*color: #ffd166;*/
 }
 
@@ -97,6 +97,140 @@ header ul{
   text-align: center;
   padding: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#intro_projet{
+  width: 100vw;
+  height: 90vh;
+  overflow: hidden;
+  /*border: 1px solid red;*/
+}
+
+#intro_projet figure{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  /*pour pouvoir positionner son enfant au centre*/
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#video{
+  width: 100%;
+  object-fit: contain;
+  /* pour que l'image s'adapte a la taille du block */
+}
+#intro_projet figure figcaption{
+  position: absolute;
+  background-color: white;
+  padding: 30px;
+    font-size: 7em;
+}
+
+
+
+
+#projet{
+  width: 90vw;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 40px;
+}
+#projet image_long{
+  width: 40%;
+  overflow: hidden;
+/*  border: 1px solid green ;
+  border: 1px solid green ;*/
+  margin-right: 1%;
+  margin-top: 30px;
+}
+#projet article{
+  width: 40%;
+  overflow: hidden;
+ /* border: 1px solid green ;
+  border: 1px solid green ;*/
+  margin-right: 1%;
+  margin-top: 30px;
+}
+#projet .image_long{
+  width: 90vw;
+  overflow: hidden;
+  /*border: 1px solid green ;*/
+  margin-right: 1%;
+  margin-top: 30px;
+}
+
+
+
+#projet image_long img{
+width: 100%;
+}
+#projet article figure{
+  width: 100%;
+}
+#projet article figure img{
+  width: 100%;
+}
+#projet article figure figcaption{
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 footer{
