@@ -1,11 +1,12 @@
 body{
-  background-color:#CDB4DB;
+  /*background-color:#CDB4DB;*/
   font-family: Archivo Black ;
+  background: linear-gradient(#ffc8dd,#9d4edd);
 
 }
 header{
   height: 30px;
-  backgrouffc8ddnd-color: purple;
+/*  backgrouffc8ddnd-color: purple;*/
   width: 100vw;
   display: flex;
   align-items: center;
@@ -37,7 +38,7 @@ header ul{
   width: 100vw;
   height: 90vh;
   overflow: hidden;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 #intro figure{
@@ -51,7 +52,7 @@ header ul{
   align-items: center;
 }
 
-#intro figure img{
+#video_index{
   width: 100%;
   object-fit: contain;
   /* pour que l'image s'adapte a la taille du block */
@@ -60,9 +61,10 @@ header ul{
 
 #intro figure figcaption{
   position: absolute;
-  background-color: purple;
+  /*background-color: purple;*/
   padding: 30px;
-  font-size: 3em;
+  font-size: 7em;
+  /*color: #ffd166;*/
 }
 
 
