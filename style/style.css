@@ -34,6 +34,7 @@ header ul{
 
 
 
+
 #intro{
   width: 100vw;
   height: 90vh;
@@ -68,6 +69,8 @@ header ul{
 }
 
 
+
+
 #mozprojet{
   width: 80vw;
   margin: 30px auto;
@@ -99,8 +102,6 @@ header ul{
 }
 
 
-
-
 #intro_projet{
   width: 100vw;
   height: 90vh;
@@ -130,8 +131,7 @@ header ul{
     font-size: 7em;
 }
 
-
-
+ 
 
 #projet{
   width: 90vw;
@@ -166,7 +166,6 @@ header ul{
 }
 
 
-
 #projet image_long img{
 width: 100%;
 }
@@ -180,6 +179,8 @@ width: 100%;
   text-align: center;
   padding: 10px;
 }
+
+
 
 footer{
   display: flex;
