@@ -1,6 +1,7 @@
 @font-face{
   font-family: "ArchivoBlack-Regular";
-  src: url("../font/ArchivoBlack-Regular.ttf") format('truetype');
+  src: url("../font/ArchivoBlack-Regular.ttf") format('truetype'),
+       url("../font/ArchivoBlack-Regular.woff") format('woff');
 }
 
 body{
@@ -193,14 +194,5 @@ footer{
   align-items: center;
   height: 50px;
   padding: 30px;
-}
-
-#footer{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 50px;
-  padding: 30px;
-  font-size: ;
 }
 
