@@ -6,7 +6,7 @@
 
 body{
   /*background-color:#CDB4DB;*/
-  font-family: Archivo Black ;
+  font-family: "ArchivoBlack-Regular";
   background: linear-gradient(#ffc8dd,#9d4edd);
 
 }
@@ -186,7 +186,22 @@ width: 100%;
   padding: 10px;
 }
 
+nav{
+  /*border: 1px solid red;*/
+  display: flex;
+  justify-content: space-between;
+  width: 10vw;
+  margin: auto;
 
+}
+
+nav a{
+  font-size: 80px;
+  text-decoration: none;
+  color: inherit;
+  color: white;
+
+}
 
 footer{
   display: flex;
