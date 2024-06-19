@@ -1,3 +1,8 @@
+@font-face{
+  font-family: "ArchivoBlack-Regular";
+  src: url("../font/ArchivoBlack-Regular.ttf") format('truetype');
+}
+
 body{
   /*background-color:#CDB4DB;*/
   font-family: Archivo Black ;
@@ -190,5 +195,12 @@ footer{
   padding: 30px;
 }
 
-
+#footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 30px;
+  font-size: ;
+}
 
